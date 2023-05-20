@@ -1,6 +1,5 @@
 import * as jose from 'https://deno.land/x/jose@v4.14.4/index.ts';
-import { ClaimGrants, VideoGrant } from './grants';
-
+import { ClaimGrants, VideoGrant } from "https://deno.land/x/denolivekit@next/src/grants.ts";
 // 6 hours
 const defaultTTL = `${6 * 60 * 60}s`;
 
